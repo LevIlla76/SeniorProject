@@ -31,7 +31,11 @@ class HomeScreen extends StatelessWidget {
     String soundFile = '';
     switch (location) {
       case 'M square':
+<<<<<<< HEAD
         soundFile = '/m_square_click.mp3';
+=======
+        soundFile = 'm_square_click.mp3';
+>>>>>>> 53b9777 (Initial commit)
         break;
       case 'D1':
         soundFile = '/d1_click.mp3';
